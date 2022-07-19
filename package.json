@@ -1,6 +1,6 @@
 {
   "name": "@nkduy/eslint-config-monorepo",
-  "version": "0.23.0-rc.0",
+  "version": "0.23.0-rc.1",
   "packageManager": "pnpm@7.0.0",
   "private": true,
   "license": "MIT",

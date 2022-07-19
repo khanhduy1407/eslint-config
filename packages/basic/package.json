@@ -1,6 +1,6 @@
 {
   "name": "@nkduy/eslint-config-basic",
-  "version": "0.23.0-rc.0",
+  "version": "0.23.0-rc.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +16,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-nkduy": "workspace:*",
+    "eslint-plugin-nkduy": "0.23.0-rc.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",

@@ -18,8 +18,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@nkduy/eslint-config-kdu': workspace:*
-      '@nkduy/eslint-config-react': workspace:*
+      '@nkduy/eslint-config-kdu': 0.23.0-rc.1
+      '@nkduy/eslint-config-react': 0.23.0-rc.1
       '@typescript-eslint/eslint-plugin': ^5.22.0
       '@typescript-eslint/parser': ^5.22.0
       eslint: ^8.14.0
@@ -62,7 +62,7 @@ importers:
       eslint-plugin-jsonc: ^2.2.1
       eslint-plugin-markdown: ^2.2.1
       eslint-plugin-n: ^15.2.0
-      eslint-plugin-nkduy: workspace:*
+      eslint-plugin-nkduy: 0.23.0-rc.1
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^42.0.0
       eslint-plugin-yml: ^0.14.0
@@ -95,7 +95,7 @@ importers:
 
   packages/kdu:
     specifiers:
-      '@nkduy/eslint-config-ts': workspace:*
+      '@nkduy/eslint-config-ts': 0.23.0-rc.1
       eslint: ^8.14.0
       eslint-plugin-kdu: ^8.7.1-rc.0
     dependencies:
@@ -106,7 +106,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@nkduy/eslint-config-ts': workspace:*
+      '@nkduy/eslint-config-ts': 0.23.0-rc.1
       eslint: ^8.14.0
       eslint-plugin-react: ^7.29.4
       react: ^18.1.0
@@ -121,7 +121,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@nkduy/eslint-config-basic': workspace:*
+      '@nkduy/eslint-config-basic': 0.23.0-rc.1
       '@typescript-eslint/eslint-plugin': ^5.22.0
       '@typescript-eslint/parser': ^5.22.0
       eslint: ^8.14.0
