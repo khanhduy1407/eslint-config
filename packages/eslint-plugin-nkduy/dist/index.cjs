@@ -1,0 +1,1 @@
+module.exports = require("E:/Workspace/NKDuy/lib/eslint-config/node_modules/.pnpm/jiti@1.14.0/node_modules/jiti/lib/index.js")(null, { interopDefault: true })('E:/Workspace/NKDuy/lib/eslint-config/packages/eslint-plugin-nkduy/src/index')

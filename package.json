@@ -1,0 +1,20 @@
+{
+  "name": "@nkduy/eslint-config-monorepo",
+  "version": "0.23.0-rc.0",
+  "packageManager": "pnpm@7.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "NKDuy",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@nkduy/eslint-config": "*",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.14.0",
+    "eslint-plugin-nkduy": "workspace:*",
+    "typescript": "^4.6.4"
+  }
+}

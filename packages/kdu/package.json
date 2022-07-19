@@ -1,0 +1,25 @@
+{
+  "name": "@nkduy/eslint-config-kdu",
+  "version": "0.23.0-rc.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "NKDuy",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nkduy/eslint-config-ts": "workspace:*",
+    "eslint-plugin-kdu": "^8.7.1-rc.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}
